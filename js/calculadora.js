@@ -35,7 +35,11 @@ function addToCalc(value){
 	}else if (regex.test(value) && !regex.test(lastValue)) {
 		entrada.value += value
 		lastValue = value
-	};
+	}else if(regex.test(lastValue) && value != lastValue){
+		tmp = entrada.value.slice(0, -1);
+		entrada.value = tmp+value;
+		lastValue = value;
+	}
 }
 
 function mostrarResult(){
