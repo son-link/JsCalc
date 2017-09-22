@@ -1,0 +1,52 @@
+table {
+  background-color: #212121;
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+  color: #eee;
+}
+
+td {border: 0; padding: 0; text-align: center;}
+
+input, button {
+  border: 0;
+  background: transparent;
+  color: #eee;
+  font-size: 18px;
+  margin: 0;
+}
+
+button {
+  text-align: center;
+  width: 64px;
+  height: 64px;
+}
+
+#display, #txtResult{
+  background: #fff;
+  color: #212121;
+  text-align: right;
+  margin: 1px 1px 0 1px;
+  width: calc(100% - 4px);
+}
+
+#display {
+  font-size: 1.5em;
+  height: 64px;
+}
+
+#txtResult {
+  margin-top: 0;
+  color: #757575;
+}
+
+button:hover {
+ background-color: #757575;
+}
+
+.opera {
+  background-color: #757575;
+}
+
+i[class^=icon-] {font-size: 14px;}
